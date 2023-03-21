@@ -608,19 +608,27 @@ focus {
 .scrolls-list-btr-item {}
 
 
-
-
-
 .scrolls-list-img {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     row-gap: 48px;
     column-gap: 24px;
 }
 
-.scrolls-link :hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+.scrolls-list-img-item {
+    gap: 48px;
+    box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+}
+
+.scrolls-link {
+    display: block;
+}
+
+.scrolls-link :hover,
+.scrolls-link :focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .scrolls-list-img-title {
