@@ -46,7 +46,8 @@ img {
     display: block;
 }
 
-.link {
+.link,
+.scrolls-link {
     text-decoration: none;
     max-width: 100%;
     width: auto;
@@ -100,8 +101,6 @@ padding-bottom: 24;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--botton-text-color);
-
-
 }
 
 .header-logo {
@@ -186,7 +185,6 @@ padding-bottom: 24;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--bgc-white-color);
-
     max-width: 496px;
     margin: 0 auto 48px;
 }
@@ -605,6 +603,8 @@ focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+/* ___________________________________________________________ */
+
 .scrolls-list-btr-item {}
 
 
@@ -614,7 +614,6 @@ focus {
     row-gap: 48px;
     column-gap: 24px;
 }
-
 
 .scrolls-list-img-item {
     gap: 48px;
