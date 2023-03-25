@@ -1,5 +1,4 @@
 :root {
-
     --paragraf-text-color: #434455;
     --botton-text-color: #4d5ae5;
     --bgc-white-color: #ffffff;
@@ -9,7 +8,6 @@
     --footer-text-color: #E7E9FC;
     --green-icon-footer-31D0AA: #31D0AA;
     --light-slate-border-8e8f99: #8e8f99;
-
 }
 
 
@@ -76,10 +74,7 @@ li {
 
 
 /* --------------------- header --------------------- */
-/* 
-padding-top: 24;
-padding-bottom: 24;
- */
+
 
 .header {
     padding-top: 24px;
@@ -111,10 +106,7 @@ padding-bottom: 24;
     color: var(--title-text-color);
 }
 
-.link:hover {
-    color: var(--focus-btn-color);
-}
-
+.link:hover,
 .link:focus {
     color: var(--focus-btn-color);
 }
@@ -394,7 +386,7 @@ padding-bottom: 24;
 }
 
 .team-soc-link:hover,
-:focus {
+.team-soc-link:focus {
     background-color: var(--focus-btn-color);
 }
 
@@ -536,7 +528,7 @@ padding-bottom: 24;
 }
 
 .footer-soc-link:hover,
-focus {
+.footer-soc-link:focus {
     background-color: var(--green-icon-footer-31D0AA);
 }
 
@@ -603,9 +595,9 @@ focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* ___________________________________________________________ */
-
 .scrolls-list-btr-item {}
+
+/* ___________________________________________________________ */
 
 
 .scrolls-list-img {
@@ -615,10 +607,7 @@ focus {
     column-gap: 24px;
 }
 
-.scrolls-list-img-item {
-    gap: 48px;
-    box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
-}
+.scrolls-list-img-item {}
 
 .scrolls-link {
     display: block;
@@ -629,6 +618,9 @@ focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+.scrolls-border {}
+
 
 .scrolls-list-img-title {
     font-weight: 500;
